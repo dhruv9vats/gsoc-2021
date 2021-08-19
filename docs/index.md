@@ -43,27 +43,27 @@ extending on the prior implementation.
 
 ### Repositories
 
-https://github.com/StingraySoftware/stingray
+<https://github.com/StingraySoftware/stingray>
 
-https://github.com/StingraySoftware/notebooks
+<https://github.com/StingraySoftware/notebooks>
 
 ### Milestones
 
-- [X] Proof-of-concept implementation of the Multitaper algorithm.
+- [X]  Proof-of-concept implementation of the Multitaper algorithm.
 
-- [X] Full implementation, integration of the algorithm into the
+- [X]  Full implementation, integration of the algorithm into the
 Stingray framework, including tests and relevant documentation.
 
-- [X] Proof-of-concept implementation of the Multitaper Lomb-Scargle
+- [X]  Proof-of-concept implementation of the Multitaper Lomb-Scargle
 algorithm. **(Optional)**
 
-- [x] Full implementation, integration of the Multitaper Lomb-Scargle
+- [x]  Full implementation, integration of the Multitaper Lomb-Scargle
 algorithm into the Stingray framework, including tests and relevant
 documentation. **(Unproposed)**
 
-- [X] Tutorial Notebook.
+- [X]  Tutorial Notebook.
 
-- [ ] Support for overlapping (tapered) data segments for use in
+- [ ]  Support for overlapping (tapered) data segments for use in
 averaged periodograms, like in the Welch method. **(Optional)** (The
 project took a different direction, and work was being done to add
 support for uneven time series)
@@ -118,8 +118,8 @@ These are the blogs written during the GSoC '21 program
 
 ## Profiles
 
-GitHub: https://github.com/dhruv9vats
+GitHub: <https://github.com/dhruv9vats>
 
-LinkedIn: https://www.linkedin.com/in/dhruv9vats/
+LinkedIn: <https://www.linkedin.com/in/dhruv9vats/>
 
-Medium: https://dhruv9vats.medium.com/
+Medium: <https://dhruv9vats.medium.com/>
