@@ -90,6 +90,15 @@ Below is a jupyter notebook, showcasing the use of this technique,
 
 <script src="https://gist.github.com/dhruv9vats/767ed9c110e8597150f6497e5f341f88.js"></script>
 
+## Beyong GSoC, logical next steps
+
+At the time of writing, support for time series with uneven temporal sampling (Lomb-Scargle)
+for the `Powerspectrum` class is being worked upon, with possible extension
+to the `Crossspectrum` class.
+
+- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Powerspectrum`
+- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Crossspectrum`
+
 ## Acknowledgements
 
 I would like to thank the mentors, [Daniela Huppenkothen](https://github.com/dhuppenkothen)
