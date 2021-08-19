@@ -1,14 +1,14 @@
 # Google Summer of Code 2021 Report
 
-## The Project
+## The Project: Integrating Multitaper Periodogram into Stingray
 
 A one-line summary of [the
 project](https://summerofcode.withgoogle.com/projects/#5521109757198336)
 can be stated as follows:
 
 The project involved investigating, implementing, and integrating a
-superior spectral estimation technique, called the Multitaper
-Periodogram, into a software package named
+superior spectral estimation technique, called the [Multitaper
+Periodogram](https://en.wikipedia.org/wiki/Multitaper), into a software package named
 [Stingray](https://github.com/StingraySoftware/stingray), which
 specializes in spectral-timing analysis of astrophysical X-ray time
 series.
@@ -26,10 +26,10 @@ periodogram, a popular technique to obtain spectral estimates of time
 series with uneven temporal sampling, was also proposed as an optional
 milestone.
 
-For exhaustive details of the project, please refer the [project
-proposal](https://gist.github.com/dhruv9vats/fdbf193600cefdaf8c8e2f54bfd83083).
+For exhaustive details of the project, such as motivation, improvements over other methods and more,
+please refer the [project proposal](https://gist.github.com/dhruv9vats/fdbf193600cefdaf8c8e2f54bfd83083).
 
-Given below is a brief summary of the Multitaper spectrum estimate,
+Given below is a brief summary of the Multitaper spectrum estimate:
 
 <script src="https://gist.github.com/dhruv9vats/49b9d27ca313882723a4492471aa499c.js">
 </script>
@@ -86,7 +86,7 @@ successfully implemented, and integrated a spectral estimation technique
 which hopefully proves to be a valuable tool in a time series analyst's
 arsenal, accounting to is desirable noise properties.
 
-Below is a jupyter notebook, showcasing the use of this technique,
+Below is a jupyter notebook, showcasing the use of this technique:
 
 <script src="https://gist.github.com/dhruv9vats/767ed9c110e8597150f6497e5f341f88.js"></script>
 
@@ -96,7 +96,7 @@ At the time of writing, support for time series with uneven temporal sampling (L
 for the `Powerspectrum` class is being worked upon, with possible extension
 to the `Crossspectrum` class.
 
-- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Powerspectrum`
+- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Powerspectrum`</li>
 - [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Crossspectrum`
 
 ## Acknowledgements
