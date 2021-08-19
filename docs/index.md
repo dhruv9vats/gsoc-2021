@@ -96,7 +96,7 @@ At the time of writing, support for time series with uneven temporal sampling (L
 for the `Powerspectrum` class is being worked upon, with possible extension
 to the `Crossspectrum` class.
 
-- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Powerspectrum`</li>
+- [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Powerspectrum`
 - [ ] Add support for Lomb-Scargle periodograms/uneven time-series to `Crossspectrum`
 
 ## Acknowledgements
