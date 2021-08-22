@@ -1,8 +1,0 @@
----
----
-
-@import "{{ site.theme }}";
-.inner {
-  max-width: 95%;
-}
-{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
